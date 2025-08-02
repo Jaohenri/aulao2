@@ -6,3 +6,29 @@ git commit -m 'modificando arquivos'  (Cria um versionamento)
 git config --global user.name 'nome' (adiciona o nome)
 git config --global user.mail 'email' (adiciona o e-mail no git)
 git config --list (verificar se a configuração tá ok)
+git log (Mostra o histórico de modifições)
+echo "# aulao2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jaohenri/aulao2.git
+git push -u origin main
+git fetch (Baixa as alterações do repositório remoto, mas não altera, não faz o merge)
+git pull (Baixa e faz o merge, junção do git fetch com o git merge)
+git pull origin nomedabranch
+git clone linkdosite (clona um repositório)
+git checkout (troca de branch)
+git branch
+git branch <nome_da_branch> (Cria branch, mas não muda pra ela)
+git branch -d <nome_Da_branch> (Deleta branch)
+git checkout <nome_da_branch>
+git checkout -b <nome_da_branch> (Cria nova branch e acessa ela ao mesmo tempo)
+git stash (Remove alterações que não foram commitadas e guardam na "memoria)
+git stash drop (Remove o que foi salvo no stash)
+git restore (remove alterações que não foram comitadas ainda)
+git reset  HEAD~:
+git reset --hard <
+git diff 
+git merge <nome_da_branch>
+
