@@ -1,0 +1,3 @@
+git init - Inicia um arquivo git
+git add - Adiciona o arquivo no git
+git status - Verifica o status
