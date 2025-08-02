@@ -1,3 +1,8 @@
 git init - Inicia um arquivo git
-git add - Adiciona o arquivo no git
+git add - Adiciona o arquivo no git 
+(git add . adiciona todos os arquivos no git. | git add nomedoarquivo adiciona um arquivo especifico)
 git status - Verifica o status
+git commit -m 'modificando arquivos'  (Cria um versionamento)
+git config --global user.name 'nome' (adiciona o nome)
+git config --global user.mail 'email' (adiciona o e-mail no git)
+git config --list (verificar se a configuração tá ok)
